@@ -1,0 +1,24 @@
+### Packages Installation
+- R語言及管理套件
+    - R
+	    - 建議版本：R-4.4.3 for Windows
+	    - 下載點：
+		    - [https://cran.r-project.org/bin/windows/base/R-4.4.3-win.exe](https://cran.r-project.org/bin/windows/base/R-4.4.3-win.exe "https://cran.r-project.org/bin/windows/base/R-4.4.3-win.exe")
+		    - 或官網下載頁面：[https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/ "https://cran.r-project.org/bin/windows/base/")
+	    - 安裝說明：[https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html](https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html "https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html")
+	- RStudio  
+		- 建議版本：2024.12.1+563
+		- 下載點：
+			- [https://download1.rstudio.org/electron/windows/RStudio-2024.12.1-563.exe](https://download1.rstudio.org/electron/windows/RStudio-2024.12.1-563.exe "https://download1.rstudio.org/electron/windows/RStudio-2024.12.1-563.exe")
+			- 或官網下載頁面：[https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/ "https://posit.co/download/rstudio-desktop/")
+		- 安裝說明：(同上) [https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html](https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html "https://www.cc.ntu.edu.tw/chinese/epaper/home/20200319_003006.html")
+	    
+- PostgreSQL及管理套件(選擇性，但建議)=>目的：將raw data儲存在資料庫，進行清理後，再取出分析
+	- PostgreSQL
+		- 建議版本：16.8 或 17.4
+		- 下載點：[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads "https://www.enterprisedb.com/downloads/postgres-postgresql-downloads") - 
+		- 安裝教學：[https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317](https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317 "https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317")
+	- pgAdmin4(Postgrsql安裝包，已包含pgAdmin，以下的安裝可供選擇性參考)
+		- 建議版本：v8.14(含)以上
+		- 下載點：[https://www.pgadmin.org/download/pgadmin-4-windows/](https://www.pgadmin.org/download/pgadmin-4-windows/ "https://www.pgadmin.org/download/pgadmin-4-windows/")
+		- 安裝說明：(同上) [https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317](https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317 "https://ticyyang.medium.com/sql-%E5%AE%89%E8%A3%9Dpostgresql-6040002d1317")
