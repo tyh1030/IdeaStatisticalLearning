@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "1.Presentation/課程資訊.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "課程資訊"
             }
           }
         ]
@@ -191,14 +191,17 @@
   },
   "active": "2963ed81b7a4e91e",
   "lastOpenFiles": [
-    "00.Fleeting Notes/Setting of My Idea Notes.md",
+    "README.md",
+    "1.Presentation/課程資訊.md",
+    "x0.Index Notes/will have a index note.md",
+    "3.R/will have a literature note.md",
+    "1.Presentation/Setting of My Idea Notes.md",
     "zz.Template/callout-Eddie.md",
     "zz.Template/callout-teacher.md",
     "zz.Template/CodeBlock-Bash.md",
     "zz.Template/CodeBlock-csharp.md",
     "zz.Template/CodeBlock-SQL.md",
     "zz.Template/Property-Default.md",
-    "00.Fleeting Notes/Plugins of Chrome.md",
     "_attachments/will have some attachments.md",
     "00.Fleeting Notes/未命名.md",
     "00.Fleeting Notes/2025-02-22.md",
@@ -207,9 +210,7 @@
     "00.Fleeting Notes/Test.md",
     "00.Fleeting Notes/Eddie CV.md",
     "zz.Template",
-    "x0.Index Notes/will have a index note.md",
-    "R/will have a literature note.md",
-    "PostgreSQL/will have a permanent note.md",
+    "2.Data and SQL/will have a permanent note.md",
     "01.Diarary/2025-02-17.md",
     "未命名.canvas",
     "唐亞.md",
