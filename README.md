@@ -1,2 +1,2 @@
-# 0.IdeaTemplate
-Default Template for my idea notes
+2025-04-08
+統計學習與大數據分析實務簡介(以R語言為例)
