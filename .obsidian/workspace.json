@@ -41,8 +41,7 @@
               "title": "新分頁"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,10 +199,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9ae9fb443daab21c",
+  "active": "2963ed81b7a4e91e",
   "lastOpenFiles": [
-    "1.Presentation/課程資訊.md",
     "1.Presentation/Learning R-Packages Installation.md",
+    "1.Presentation/課程資訊.md",
     "1.Presentation/Setting of My Idea Notes.md",
     "README.md",
     "x0.Index Notes/will have a index note.md",
