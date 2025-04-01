@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "0bb1299f6355e9e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "659a8b8c8ff731fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2963ed81b7a4e91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Fleeting Notes/Setting of My Idea Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Setting of My Idea Notes"
+            }
+          },
+          {
+            "id": "3183294b9df5967f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00.Fleeting Notes/Plugins of Chrome.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Plugins of Chrome"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29bf6d7eac8e89dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1277adcbd92597c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "048e4b20da8deef9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "86a50ab1c9e58bfb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "fad0002deed66182",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d8fce5d6421d0eb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2a453404e7291ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53492003a045b3fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00.Fleeting Notes/Test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Test"
+            }
+          },
+          {
+            "id": "463cad5afde52e10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00.Fleeting Notes/Test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Test"
+            }
+          },
+          {
+            "id": "165d2ba16196c56d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "89536996e59b982a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          },
+          {
+            "id": "cea4f62b8cf53f38",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "279099a743f51019",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "3183294b9df5967f",
+  "lastOpenFiles": [
+    "00.Fleeting Notes/未命名.md",
+    "00.Fleeting Notes/Plugins of Chrome.md",
+    "00.Fleeting Notes/Setting of My Idea Notes.md",
+    "00.Fleeting Notes/2025-02-22.md",
+    "00.Fleeting Notes/112233.md",
+    "00.Fleeting Notes/2025-02-14.md",
+    "00.Fleeting Notes/Test.md",
+    "zz.Template/CodeBlock-csharp.md",
+    "zz.Template/Property-Default.md",
+    "zz.Template/callout-Eddie.md",
+    "zz.Template/callout-teacher.md",
+    "zz.Template/CodeBlock-Bash.md",
+    "zz.Template/CodeBlock-SQL.md",
+    "00.Fleeting Notes/Eddie CV.md",
+    "zz.Template",
+    "_attachments/will have some attachments.md",
+    "x0.Index Notes/will have a index note.md",
+    "02.Literature Notes/will have a literature note.md",
+    "03.Permanent Notes/will have a permanent note.md",
+    "01.Diarary/2025-02-17.md",
+    "未命名.canvas",
+    "唐亞.md",
+    "Pasted image 20250217090403.png"
+  ]
+}
