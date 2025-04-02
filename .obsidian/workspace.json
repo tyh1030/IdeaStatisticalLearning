@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Presentation/2.統計學的基本概念與資料.md",
+                "file": "1.Presentation/3.1資料結構與ERModel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.統計學的基本概念與資料"
+              "title": "3.1資料結構與ERModel"
             }
           },
           {
@@ -213,8 +213,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2963ed81b7a4e91e",
+  "active": "048e4b20da8deef9",
   "lastOpenFiles": [
+    "1.Presentation/energy_ER-model.png",
     "1.Presentation/3.1資料結構與ERModel.md",
     "1.Presentation/2.統計學的基本概念與資料.md",
     "3.R/energy_analysis.R",
