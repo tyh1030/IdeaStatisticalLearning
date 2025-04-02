@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user
+.Renviron
+*.rds
+*.csv
+*.xls
+*.xlst
+*.sql
+*.yml
+
