@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Presentation/0.Syllabus.md",
+                "file": "1.Presentation/2.統計學的基本概念與資料.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,17 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0.Syllabus"
+              "title": "2.統計學的基本概念與資料"
             }
           },
           {
             "id": "9ae9fb443daab21c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1.Presentation/2.統計學的基本概念與資料.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "2.統計學的基本概念與資料"
             }
           }
         ]
@@ -201,8 +215,9 @@
   },
   "active": "2963ed81b7a4e91e",
   "lastOpenFiles": [
-    "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/0.Syllabus.md",
+    "1.Presentation/2.統計學的基本概念與資料.md",
+    "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/Setting of My Idea Notes.md",
     "README.md",
     "x0.Index Notes/will have a index note.md",
