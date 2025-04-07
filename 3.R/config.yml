@@ -1,0 +1,6 @@
+postgres:
+  user: "iscom"
+  password: "7o598966"
+  dbname: "db_iot"
+  host: "127.0.0.1"
+  port: 5432

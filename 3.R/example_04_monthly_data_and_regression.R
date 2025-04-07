@@ -46,7 +46,7 @@ summary_data_1 <- source_data %>%
 # Visualizing with ggplot2 of summary_data (直方圖)
 ggplot(summary_data_1, aes(x = data_month, y = sum_data)) +
   geom_col(position = "dodge",width=0.6) +
-  geom_vline(aes(xintercept = mean), color = "red", linetype = "dashed") +
+  geom_smooth(method = "lm", se = FALSE, color = "red") +  # 迴歸線
   labs(title = "每月用電量", y = "KW(度)", x = "年月") +
   scale_y_continuous(breaks = seq(0, 2400, by = 200))+
   geom_text(aes(label = sum_data, vjust = 1.5),color="white")+
