@@ -89,7 +89,7 @@ ggplot(summary_data, aes(x = hh, y = percentage)) +
   scale_y_continuous(breaks = seq(0, 20, by = 1))+
   geom_text(aes(label = mean2, vjust = -0.3))
 
-# Visualizing with ggplot2 of filtered_data (折線圖)
+# Visualizing with ggplot2 of filtered_data (散佈圖)
 filtered_data  <- filter(source_data,asset_id== "103-B76")
 filtered_data  <- filter(filtered_data,date_hour>="2024-07-01",date_hour<="2024-12-31")
 ggplot(filtered_data, aes(x = date_hour, y = kw_used)) +
