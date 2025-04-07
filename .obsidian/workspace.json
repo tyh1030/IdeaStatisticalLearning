@@ -213,8 +213,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "048e4b20da8deef9",
+  "active": "2963ed81b7a4e91e",
   "lastOpenFiles": [
+    "3.R/example_04_monthly_data_and_regression.R",
+    "3.R/example_03_daily_data.R",
+    "3.R/example_02_hourly_data.R",
+    "3.R/example_01_rawdata.R",
     "1.Presentation/energy_ER-model.png",
     "1.Presentation/3.1資料結構與ERModel.md",
     "1.Presentation/2.統計學的基本概念與資料.md",
@@ -244,7 +248,6 @@
     "00.Fleeting Notes/2025-02-14.md",
     "00.Fleeting Notes/Test.md",
     "00.Fleeting Notes/Eddie CV.md",
-    "zz.Template",
     "2.Data and SQL/will have a permanent note.md",
     "01.Diarary/2025-02-17.md",
     "未命名.canvas",

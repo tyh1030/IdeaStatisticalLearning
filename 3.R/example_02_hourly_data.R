@@ -7,8 +7,6 @@ library("DBI")
 library("RPostgres")
 library("yaml")
 # 1. Load data
-#setwd("./")
-#ds_source = read.csv('./source.data/climate_mortality.csv') #replace with pathname in your computer
 # Load configuration
 config <- yaml::read_yaml("config.yml")
 # Connect to the database
