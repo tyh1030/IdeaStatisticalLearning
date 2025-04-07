@@ -214,13 +214,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9ae9fb443daab21c",
+  "active": "048e4b20da8deef9",
   "lastOpenFiles": [
-    "1.Presentation/2.統計學的基本概念與資料.md",
-    "1.Presentation/0.Syllabus.md",
-    "_attachments/勤益科大-20250408.pdf",
     "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/3.1資料結構與ERModel.md",
+    "1.Presentation/energy_ER-model.png",
+    "1.Presentation/0.Syllabus.md",
+    "1.Presentation/2.統計學的基本概念與資料.md",
+    "1.Presentation/勤益科大-20250408.pdf",
     "3.R/~$product.xlsx",
     "3.R/product.csv",
     "README.md",
@@ -232,7 +233,6 @@
     "3.R/import_data - 複製.csv",
     "3.R/example_04_monthly_data_and_regression.R",
     "3.R/example_03_daily_data.R",
-    "1.Presentation/energy_ER-model.png",
     "1.Presentation/Setting of My Idea Notes.md",
     "x0.Index Notes/will have a index note.md",
     "3.R/will have a literature note.md",
