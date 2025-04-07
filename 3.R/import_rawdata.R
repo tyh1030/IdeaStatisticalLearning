@@ -15,7 +15,9 @@ con <- dbConnect(RPostgres::Postgres(),
 ##### import iot raw data
 a_panel_data = read.csv('./import_data.csv')
 dbWriteTable(con, "iotrawdata", a_panel_data, overwrite = FALSE, append = TRUE)
-
+##### import product data
+a_panel_product = read.csv('./import_product.csv')
+dbWriteTable(con, "product", a_panel_product, overwrite = FALSE, append = TRUE)
 # Disconnect
 dbDisconnect(con)
 
