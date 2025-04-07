@@ -11,18 +11,18 @@ con <- dbConnect(RPostgres::Postgres(),
                  port = 5432,
                  user = "iscom",
                  password = "7o598966")
-
-soure_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
+sql_cmd <-"select * from iotrawdata where instr_model='W349'"
+source_data <- dbGetQuery(con, sql_cmd)
 # Disconnect
 dbDisconnect(con)
 
 # Compute statistics
-summary_data <- soure_data %>%
+summary_data <- source_data %>%
   group_by(asset_id) %>%
   summarise(
     range= max(rawvalue) - min(rawvalue),
-    max= max(kw_used),
-    min= min(kw_used),
+    max= max(rawvalue),
+    min= min(rawvalue),
     counts = n(),
     mean = mean(rawvalue),
     median = median(rawvalue),
@@ -35,14 +35,7 @@ summary_data <- soure_data %>%
   )
 
 # print(summary_w_raw_data)
-# 1 Visualizing with ggplot2 of soure_data
-ggplot(soure_data, aes(x = createtime, y = rawvalue)) +
-  geom_boxplot() +
-  labs(title = "Boxplot of Raw Data",
-       y = "kw Value",
-       x = "time") +
-  theme_minimal()
-# 2 Visualizing with ggplot2 of summary_data
+# Visualizing with ggplot2 of summary_data
 ggplot(summary_data, aes(x = asset_id, y = mean)) +
   geom_col(fill = "lightblue") +
   geom_errorbar(aes(ymin = mean - 2*std_error, ymax = mean + 2*std_error), width = 0.2) +
@@ -51,3 +44,8 @@ ggplot(summary_data, aes(x = asset_id, y = mean)) +
        y = "kw value",
        x = "Asset type") +
   theme_minimal()
+# example of filter data
+filtered_data  <- filter(source_data,asset_id== "104-F13")
+# example of filter data
+
+  

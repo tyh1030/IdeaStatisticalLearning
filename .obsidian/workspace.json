@@ -55,7 +55,8 @@
               "title": "2.統計學的基本概念與資料"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,14 +214,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2963ed81b7a4e91e",
+  "active": "9ae9fb443daab21c",
   "lastOpenFiles": [
+    "1.Presentation/3.1資料結構與ERModel.md",
     "3.R/example_04_monthly_data_and_regression.R",
     "3.R/example_03_daily_data.R",
     "3.R/example_02_hourly_data.R",
     "3.R/example_01_rawdata.R",
     "1.Presentation/energy_ER-model.png",
-    "1.Presentation/3.1資料結構與ERModel.md",
     "1.Presentation/2.統計學的基本概念與資料.md",
     "3.R/energy_analysis.R",
     "3.R/import_data.csv",
@@ -228,7 +229,6 @@
     "3.R/Init.R",
     "3.R/config.yml",
     "3.R/import_rawdata.R",
-    "3.R/3.R.Rproj",
     "1.Presentation/0.Syllabus.md",
     "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/Setting of My Idea Notes.md",
