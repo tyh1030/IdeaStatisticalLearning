@@ -20,22 +20,30 @@ con <- dbConnect(
   user = config$postgres$user,
   password = config$postgres$password
 )
-ds_source_V <- dbGetQuery(con, "select * from iotrawdata where instr_model='V257'")
-ds_source_A <- dbGetQuery(con, "select * from iotrawdata where instr_model='I295'")
-ds_source_W <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
+ds_w_raw_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
+ds_w_hourly_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
+s_w_daily_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
+s_w_monthly_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
 # Disconnect
 dbDisconnect(con)
 
 # Compute statistics
-summary_stats_V <- ds_source_V %>%
+summary_w_raw_data <- ds_w_raw_data %>%
   group_by(asset_id) %>%
   summarise(
+    range= max(rawvalue) - min(rawvalue),
+    counts = n(),
     mean = mean(rawvalue),
     median = median(rawvalue),
-    std_error = sd(rawvalue) / sqrt(n())
+    Q1=quantile(rawvalue, probs = 0.25),
+    Q2=quantile(rawvalue, probs = 0.5),
+    Q3=quantile(rawvalue, probs = 0.75),
+    variance=var(rawvalue),
+    std_error = sd(rawvalue) / sqrt(n()),
+    cv=sd(rawvalue) / mean(rawvalue),
   )
 
-print(summary_stats_V)
+print(summary_w_raw_data)
 # Visualizing with ggplot2
 
 
