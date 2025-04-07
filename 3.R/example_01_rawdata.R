@@ -38,21 +38,20 @@ summary_data <- source_data %>%
 # Visualizing with ggplot2 of summary_data
 ggplot(summary_data, aes(x = asset_id, y = mean)) +
   geom_col(fill = "lightblue") +
-  geom_errorbar(aes(ymin = mean - 2*std_error, ymax = mean + 2*std_error), width = 0.2) +
+  geom_errorbar(aes(ymin = min - std_error, ymax = max + std_error), width = 0.2) +
   geom_point(aes(y = median), color = "red", size = 2) + 
-  labs(title = "Mean, Median (Red Dots) and Standard Error",
-       y = "kw value",
-       x = "Asset type") +
+  labs(title = "平均數,中位數(紅色)及標準差",
+       y = "KW(度)",
+       x = "機台編號") +
   theme_minimal()
 # example of filter data
 filtered_data  <- filter(source_data,asset_id== "103-B76")
-filtered_data  <- filter(filtered_data,createtime>="2024-10-01",createtime<="2024-10-31")
+filtered_data  <- filter(filtered_data,createtime>="2024-10-1",createtime<="2024-10-31")
 # Visualizing with ggplot2 of filtered_data
 ggplot(filtered_data, aes(x = createtime, y = rawvalue)) +
-  geom_col(fill = "lightblue") +
-  geom_point(aes(y = rawvalue), color = "red", size = 2) + 
-  labs(title = "Mean, Median (Red Dots) and Standard Error",
-       y = "kw value",
-       x = "Asset type") +
+  geom_line() +
+  labs(title = "用電累計圖(度)", x = "時間", y = "KW(度)") +
+  scale_y_continuous(breaks = seq(4000, 5000, by = 100))+
+  scale_x_datetime(date_breaks = "2 day", date_labels = "%y'-%m-%d") +
   theme_minimal()
   

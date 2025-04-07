@@ -1,6 +1,4 @@
 ## Load useful libraries
-#library("fixest")
-#library("binsreg")
 library("dplyr")
 library("ggplot2")
 library("DBI")
@@ -18,44 +16,14 @@ con <- dbConnect(
   user = config$postgres$user,
   password = config$postgres$password
 )
-ds_w_raw_data <- dbGetQuery(con, "select * from iotrawdata where instr_model='W349'")
-ds_w_hourly_data <- dbGetQuery(con, "select * from vw_houly_kw_used")
-ds_w_daily_data <- dbGetQuery(con, "select * from vw_daily_kw_used")
-ds_w_monthly_data <- dbGetQuery(con, "select * from vw_monthly_kw_used")
+sql_cmd <-"select * from vw_houly_kw_used"
+source_data <- dbGetQuery(con, sql_cmd)
 # Disconnect
 dbDisconnect(con)
 
 # Compute statistics
-# example of summary statistics--01
-summary_w_raw_data <- ds_w_raw_data %>%
-  group_by(asset_id) %>%
-  summarise(
-    range= max(rawvalue) - min(rawvalue),
-    counts = n(),
-    mean = mean(rawvalue),
-    median = median(rawvalue),
-    Q1=quantile(rawvalue, probs = 0.25),
-    Q2=quantile(rawvalue, probs = 0.5),
-    Q3=quantile(rawvalue, probs = 0.75),
-    variance=var(rawvalue),
-    std_error = sd(rawvalue) / sqrt(n()),
-    cv=sd(rawvalue) / mean(rawvalue),
-  )
-
-# print(summary_w_raw_data)
-# Visualizing with ggplot2
-
-ggplot(summary_w_raw_data, aes(x = asset_id, y = mean)) +
-  geom_col(fill = "lightblue") +
-  geom_errorbar(aes(ymin = mean - std_error, ymax = mean + std_error), width = 0.2) +
-  geom_point(aes(y = median), color = "red", size = 3) + 
-  labs(title = "Mean, Median (Red Dots) and Standard Error",
-       y = "Value",
-       x = "Asset type") +
-  theme_minimal()
-
-# example of summary statistics--02
-summary_w_hourly_data <- ds_w_hourly_data %>%
+# example of summary statistics
+summary_data <- source_data %>%
   group_by(asset_id) %>%
   summarise(
     range= max(kw_used) - min(kw_used),
