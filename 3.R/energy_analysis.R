@@ -84,7 +84,7 @@ ggplot(ds_w_hourly_data, aes(x = date_hour, y = kw_used)) +
   theme_minimal()
 # example of summary statistics--03
 summary_w_daily_data <- ds_w_daily_data %>%
-  group_by(weekday) %>%
+  group_by(asset_id,weekday) %>%
   summarise(
     range= max(kw_used) - min(kw_used),
     max= max(kw_used),
@@ -98,11 +98,15 @@ summary_w_daily_data <- ds_w_daily_data %>%
     variance=var(kw_used),
     std_error = sd(kw_used) / sqrt(n()),
     cv=sd(kw_used) / mean(kw_used),
+    .groups = "drop"  # remove grouping in the result
   )
-ggplot(summary_w_daily_data, aes(x = weekday, y = mean)) +
-  geom_col(fill = "lightblue") +
-  geom_errorbar(aes(ymin = mean - 2*std_error, ymax = mean + 2*std_error), width = 0.2) +
-  geom_point(aes(y = median), color = "red", size = 3) + 
+ggplot(summary_w_daily_data, aes(x = weekday, y = mean,fill=asset_id)) +
+  geom_col(position = "dodge") +
+  facet_wrap(~ asset_id) +
+  scale_x_continuous(
+    breaks = seq(0, 6, by = 1),   # per breaks
+    limits = c(0, 6)               # range
+  ) +
   labs(title = "Mean, Median (Red Dots) and Standard Error",
        y = "kw",
        x = "weekday per week") +
