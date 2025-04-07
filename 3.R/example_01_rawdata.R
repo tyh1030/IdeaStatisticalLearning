@@ -40,9 +40,7 @@ ggplot(summary_data, aes(x = asset_id, y = mean)) +
   geom_col(fill = "lightblue") +
   geom_errorbar(aes(ymin = min - std_error, ymax = max + std_error), width = 0.2) +
   geom_point(aes(y = median), color = "red", size = 2) + 
-  labs(title = "平均數,中位數(紅色)及標準差",
-       y = "KW(度)",
-       x = "機台編號") +
+  labs(title = "平均數,中位數(紅色)及標準差",y = "KW(度)",x = "機台編號") +
   theme_minimal()
 # example of filter data
 filtered_data  <- filter(source_data,asset_id== "103-B76")
