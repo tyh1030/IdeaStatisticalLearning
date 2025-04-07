@@ -35,7 +35,7 @@ summary_data <- source_data %>%
   )
 
 # print(summary_w_raw_data)
-# Visualizing with ggplot2 of summary_data
+# Visualizing with ggplot2 of summary_data (直方圖)
 ggplot(summary_data, aes(x = asset_id, y = mean)) +
   geom_col(fill = "lightblue") +
   geom_errorbar(aes(ymin = min - std_error, ymax = max + std_error), width = 0.2) +
@@ -45,7 +45,7 @@ ggplot(summary_data, aes(x = asset_id, y = mean)) +
 # example of filter data
 filtered_data  <- filter(source_data,asset_id== "103-B76")
 filtered_data  <- filter(filtered_data,createtime>="2024-10-1",createtime<="2024-10-31")
-# Visualizing with ggplot2 of filtered_data
+# Visualizing with ggplot2 of filtered_data (折線圖)
 ggplot(filtered_data, aes(x = createtime, y = rawvalue)) +
   geom_line() +
   labs(title = "用電累計圖(度)", x = "時間", y = "KW(度)") +
