@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.Presentation/2.統計學的基本概念與資料.md",
+                "file": "1.Presentation/3.1資料結構與ERModel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2.統計學的基本概念與資料"
+              "title": "3.1資料結構與ERModel"
             }
           }
         ],
@@ -216,6 +216,8 @@
   },
   "active": "9ae9fb443daab21c",
   "lastOpenFiles": [
+    "3.R/import_data.csv",
+    "1.Presentation/2.統計學的基本概念與資料.md",
     "3.R/import_data - 複製.csv",
     "1.Presentation/3.1資料結構與ERModel.md",
     "3.R/example_04_monthly_data_and_regression.R",
@@ -223,13 +225,10 @@
     "3.R/example_02_hourly_data.R",
     "3.R/example_01_rawdata.R",
     "1.Presentation/energy_ER-model.png",
-    "1.Presentation/2.統計學的基本概念與資料.md",
     "3.R/energy_analysis.R",
-    "3.R/import_data.csv",
     "3.R/import_data.xlsx",
     "3.R/Init.R",
     "3.R/config.yml",
-    "3.R/import_rawdata.R",
     "1.Presentation/0.Syllabus.md",
     "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/Setting of My Idea Notes.md",

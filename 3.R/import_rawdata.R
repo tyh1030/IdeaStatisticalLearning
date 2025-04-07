@@ -2,7 +2,7 @@ library(DBI)
 library(RPostgres)
 # 1. set the import file path and the postgresql connection 
 ##### the path of testing data
-setwd("./")
+#setwd("./")
 getwd()
 ##### the the postgresql connection 
 con <- dbConnect(RPostgres::Postgres(),
@@ -14,7 +14,7 @@ con <- dbConnect(RPostgres::Postgres(),
 # 2. Load data and import it which the action automatically create the table schema and the data
 ##### import iot raw data
 a_panel_data = read.csv('./import_data.csv')
-dbWriteTable(con, "iotrawdata", a_panel_data, overwrite = TRUE, append = FALSE)
+dbWriteTable(con, "iotrawdata", a_panel_data, overwrite = FALSE, append = TRUE)
 
 # Disconnect
 dbDisconnect(con)
