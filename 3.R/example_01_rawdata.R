@@ -45,7 +45,11 @@ ggplot(summary_data, aes(x = asset_id, y = mean)) +
        x = "Asset type") +
   theme_minimal()
 # example of filter data
-filtered_data  <- filter(source_data,asset_id== "104-F13")
+filtered_data  <- filter(source_data,asset_id== "103-B76",nchar(createtime)>0)
+source_data$date_mm <- as.POSIXct(source_data$createtime, format = "%y-%m-%d %H:%M")
+filtered_data  <- filter(filtered_data,createdate>="2024-10-01",createdate<="2024-10-31")
 # example of filter data
-
+datetime_string <- "2023/10/27 10:30"
+datetime_object <- as.POSIXct(datetime_string, format = "%y-%m-%d %H:%M")
+print(datetime_object)
   
