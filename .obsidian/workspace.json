@@ -55,7 +55,8 @@
               "title": "3.1資料結構與ERModel"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,10 +215,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2963ed81b7a4e91e",
+  "active": "9ae9fb443daab21c",
   "lastOpenFiles": [
-    "1.Presentation/3.1資料結構與ERModel.md",
     "1.Presentation/0.Syllabus.md",
+    "1.Presentation/3.1資料結構與ERModel.md",
     "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/energy_ER-model.png",
     "1.Presentation/2.統計學的基本概念與資料.md",
