@@ -83,3 +83,14 @@ ggplot(summary_data_2, aes(x = data_month, y = sum_kw)) +
 # do a regression to find the relationship between kw_used and product
 model <- lm(sum_kw ~ product, data = summary_data_2)
 summary(model)
+
+# Visualizing with ggplot2 of summary_data (每月用電量-迴歸圖)
+ggplot(summary_data_2, aes(x = product, y = sum_kw)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE, color = "blue") +
+  scale_x_continuous(breaks = seq(0, 2400, by = 200))+
+  scale_y_continuous(breaks = seq(0, 2400, by = 200))+
+  labs(title = "生產數量與用電量", y = "KW(度)", x = "生產數量") +
+  theme_minimal()
+
+
