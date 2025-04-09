@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "659a8b8c8ff731fb",
+        "id": "9ffb247a1adcc0f6",
         "type": "tabs",
         "children": [
           {
-            "id": "2963ed81b7a4e91e",
+            "id": "4fae84a1a961e283",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Presentation/0.Syllabus.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "0.Syllabus"
-            }
-          },
-          {
-            "id": "9ae9fb443daab21c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1.Presentation/3.1資料結構與ERModel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3.1資料結構與ERModel"
+              "title": "新分頁"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d8fce5d6421d0eb1",
@@ -211,11 +171,10 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ae9fb443daab21c",
+  "active": "4fae84a1a961e283",
   "lastOpenFiles": [
     "1.Presentation/0.Syllabus.md",
     "1.Presentation/3.1資料結構與ERModel.md",
