@@ -11,10 +11,12 @@
             "id": "4fae84a1a961e283",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新分頁"
+              "type": "pdf",
+              "state": {
+                "file": "1.Presentation/勤益科大-20250408.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "勤益科大-20250408"
             }
           }
         ]
@@ -176,8 +178,8 @@
   },
   "active": "4fae84a1a961e283",
   "lastOpenFiles": [
-    "1.Presentation/0.Syllabus.md",
     "1.Presentation/3.1資料結構與ERModel.md",
+    "1.Presentation/0.Syllabus.md",
     "1.Presentation/1.Learning R-Packages Installation.md",
     "1.Presentation/energy_ER-model.png",
     "1.Presentation/2.統計學的基本概念與資料.md",
